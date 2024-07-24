@@ -50,6 +50,10 @@ html, body {
     object-fit: cover;
 }
 
+#profilephoto img:hover{
+    size: 300px;
+}
+
 img{
     height: 100px;
     object-fit: cover;
@@ -84,6 +88,10 @@ img{
     transform: translateX(-50%);
 }
 
+#heading:hover{
+    font-size: 3em;
+}
+
 .section {
     display: none;
     margin-top: 20px;
@@ -114,6 +122,10 @@ img{
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+
+#images:hover{
+    size: 200px;
 }
 
 #yash img{
