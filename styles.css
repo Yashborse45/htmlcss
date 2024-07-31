@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-family: 'Fira Code';
+    position: relative;
+}
+
+#profilephoto {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#navigationbar {
+    background-color: blueviolet;
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    height: auto;
+    width: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#profilephoto img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+a{
+    font-family: 'Cascadia Code';
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#heading:hover{
+    font-size: 3em;
+}
+
+.section {
+    display: none;
+    margin-top: 20px;
+}
+
+:target {
+    display: block;
+}
+
+.content {
+    font-size: larger;
+    text-align: justify;
+    color: white;
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    max-width: 800px;
+    overflow: visible;
+    white-space: normal;
+}
+
+a {
+    color: white;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+a:hover {
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+
+#images a img {
+    width: 80%;
+    height: auto;
+    margin: 10px 0;
+}
+
+#images {
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#yash img {
+    border-radius: 30%; 
+    border: none;
+}
+
+h2{
+    color: white;
+}
