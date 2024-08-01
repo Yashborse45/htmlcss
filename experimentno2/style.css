@@ -1,0 +1,15 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Calibri';
+    background-color: aqua;
+}
+div{
+    margin: 20px;
+}
+
+h1{
+    font-weight: bold;
+    color: red;
+}
