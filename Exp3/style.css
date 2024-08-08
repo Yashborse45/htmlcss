@@ -8,7 +8,7 @@
 html, body{
     height: 100%;
     width: 100%;
-    background: wheat;
+    background: rgb(239, 205, 142);
 }
 
 html {
@@ -33,7 +33,7 @@ html {
 #header{
     display: flex;
     height: 75px;
-    background:beige;
+    background:#333;
     align-items: center;
     position: relative;
     width: 100%;
@@ -47,7 +47,7 @@ html {
 }
 
 .texts{
-    color: black;
+    color: wheat;
     margin: 5px;
     padding: 25px;
     font-weight: bold;
@@ -55,7 +55,8 @@ html {
 }
 
 #header div:hover{
-    background: white;
+    background: wheat;
+    color: #333;
 }
 
 
@@ -89,7 +90,7 @@ html {
 
 .price{
     font-size: 16px;
-    color: #e74c3c; 
+    color: #333;
     font-weight: bold;
 }
 
@@ -180,7 +181,7 @@ h1{
 
 footer {
     background: #333;
-    color: #fff;
+    color: wheat;
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -192,4 +193,6 @@ footer {
 footer p {
     margin: 0;
 }
+
+
 
