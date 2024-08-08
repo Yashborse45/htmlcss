@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Consolas;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: wheat;
+}
+
+#search{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+input{
+    height: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+}
+
+#header{
+    display: flex;
+    height: 75px;
+    background:beige;
+    object-fit: cover;
+    align-items: center;
+    position: relative;
+}
+
+a{
+    color: black;
+}
+
+.texts{
+    color: black;
+    margin: 5px;
+    padding: 20px;
+}
+
+div:hover{
+    background: white;
+}
